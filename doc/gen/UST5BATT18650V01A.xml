@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/UST5BATT18650V01A.kicad_sch</source>
+    <date>Sun Oct 16 07:14:49 2022</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2022-04-02</date>
+        <source>UST5BATT18650V01A.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Silicon photomultiplier interface module"/>
+        <comment number="3" value="nickname &lt;email@example.com&gt;"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>NCR18650BL</value>
+      <footprint>Mlab_Batery:BAT_BK-18650-PC4</footprint>
+      <libsource lib="MLAB_BATERY" part="2xBATT" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab142bbc-6e22-43b0-972f-32e49a8a71ec 6b611581-019d-47f6-ac1c-d1286a9fb4e7</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>NCR18650BL</value>
+      <footprint>Mlab_Batery:BAT_BK-18650-PC6</footprint>
+      <libsource lib="MLAB_BATERY" part="3xBATT" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efb170d4-b586-40f3-bb0e-8e0f7aa66a07 645faee6-4af6-42b2-b745-3c669a421ced 1c741060-97d2-4298-aae9-eee359b3bae4</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>47uF/6V3</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc290794-67af-4e69-a787-e663b2676ac2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>729e0aa9-1770-4b96-8a01-af601278faec</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2c2573f-95ca-4b27-b2b0-4a4afcd9537c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61c5e7b9-ec75-459b-8f55-aa6dcdc47663</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>678b0808-6a49-4948-bc77-b41d6e5561d1</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>47uF/6V3</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57e732c5-0bf4-4bf5-89ed-c92fa596db51</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>47uF/6V3</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f18108ed-0e9d-4d12-8e43-13edb46c1619</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>100mA</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fea8bc41-b676-4245-bd29-39fd01a19f13</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>100mA</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3851f1a0-0e5d-45f7-9365-bd7cd83e21b7</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>100mA</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c852a737-2a2f-439a-9286-b42fd0649744</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>100mA</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6d3734f-f3ae-47ca-9988-e728219f2f3d</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>100mA</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccfcf93c-564b-45f8-9967-2763b3e96c35</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SM03B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="UST_ID">612880e51287500165a978de</field>
+      </fields>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM03B-GHS-TB" description=""/>
+      <property name="UST_ID" value="612880e51287500165a978de"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f8cb936-6da2-4dd9-a5fe-3b463bd60528</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SM03B-GHS-TB</value>
+      <footprint>Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal</footprint>
+      <fields>
+        <field name="UST_ID">612880e51287500165a978de</field>
+      </fields>
+      <libsource lib="MLAB_CONNECTORS_JST" part="SM03B-GHS-TB" description=""/>
+      <property name="UST_ID" value="612880e51287500165a978de"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08587bea-9f72-4a14-98d6-a2e8e070a49a</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b33a1dde-7231-40fd-a560-efd81509983a</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>DE1207-1</value>
+      <footprint>Mlab_L:DE1207</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0239a7dc-4f11-4dd5-9564-b10e3cb51ffa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>560k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88c5e61d-a3df-45b2-8bd8-f2c4869aaa32</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5256a2e5-5d23-4520-bca8-57cb50ff01c2</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>TPS63060</value>
+      <footprint>Package_SON:Texas_S-PWSON-N10_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps63060.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS63060" description="Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da49333a-2ae3-46a7-85b7-29e867a658b0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_BATERY" part="2xBATT">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">2xBATT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1+" name="+" type="passive"/>
+        <pin num="1-" name="-" type="passive"/>
+        <pin num="2+" name="+" type="passive"/>
+        <pin num="2-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_BATERY" part="3xBATT">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">3xBATT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1+" name="+" type="passive"/>
+        <pin num="1-" name="-" type="passive"/>
+        <pin num="2+" name="+" type="passive"/>
+        <pin num="2-" name="-" type="passive"/>
+        <pin num="3+" name="+" type="passive"/>
+        <pin num="3-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_CONNECTORS_JST" part="SM03B-GHS-TB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM03B-GHS-TB</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="MP" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_UST_LOGO" part="LOGO_UST">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">LOGO_UST</field>
+        <field name="Footprint">MLAB_LOGA:UST</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS63060">
+      <description>Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps63060.pdf</docs>
+      <footprints>
+        <fp>Texas*S*PWSON*N10*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63060</field>
+        <field name="Footprint">Package_SON:Texas_S-PWSON-N10_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps63060.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="L1" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="PS/SYNC" type="input"/>
+        <pin num="5" name="PG" type="output"/>
+        <pin num="6" name="VAUX" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="FB" type="input"/>
+        <pin num="9" name="VOUT" type="power_out"/>
+        <pin num="10" name="L2" type="input"/>
+        <pin num="11" name="PGND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="J2" pin="2" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="X1" pin="9" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="BT1" pin="1-" pinfunction="-" pintype="passive"/>
+      <node ref="BT1" pin="2-" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="1-" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="2-" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="3-" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="input"/>
+      <node ref="J1" pin="3" pintype="input"/>
+      <node ref="J1" pin="MP" pintype="input"/>
+      <node ref="J2" pin="1" pintype="input"/>
+      <node ref="J2" pin="3" pintype="input"/>
+      <node ref="J2" pin="MP" pintype="input"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="X1" pin="11" pinfunction="PGND" pintype="power_in"/>
+      <node ref="X1" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(BT1-Pad1+)">
+      <node ref="BT1" pin="1+" pinfunction="+" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(BT1-Pad2+)">
+      <node ref="BT1" pin="2+" pinfunction="+" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(BT2-Pad1+)">
+      <node ref="BT2" pin="1+" pinfunction="+" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(BT2-Pad2+)">
+      <node ref="BT2" pin="2+" pinfunction="+" pintype="passive"/>
+      <node ref="F4" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(BT2-Pad3+)">
+      <node ref="BT2" pin="3+" pinfunction="+" pintype="passive"/>
+      <node ref="F5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="X1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="X1" pin="6" pinfunction="VAUX" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="X1" pin="8" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="PS/SYNC" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="L1" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="X1" pin="10" pinfunction="L2" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(X1-Pad5)">
+      <node ref="X1" pin="5" pinfunction="PG" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
