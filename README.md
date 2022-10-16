@@ -1,4 +1,3 @@
 # UST5BATT18650V01
-5x batt 18650
 ![Top view on UST5BATT18650V01](/doc/img/UST5BATT18650V01A_top.png)
 ![Bop view on UST5BATT18650V01](/doc/img/UST5BATT18650V01A_bot.png)
