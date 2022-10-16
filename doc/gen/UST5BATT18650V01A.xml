@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/UST5BATT18650V01A.kicad_sch</source>
-    <date>Sun Oct 16 07:24:24 2022</date>
+    <date>Sun Oct 16 10:31:48 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -150,6 +150,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ccfcf93c-564b-45f8-9967-2763b3e96c35</tstamps>
     </comp>
+    <comp ref="F6">
+      <value>1,1A</value>
+      <footprint>Mlab_F:1812</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f6a97fb-1a4f-4ac5-82ca-9c945decc1d4</tstamps>
+    </comp>
     <comp ref="J1">
       <value>SM03B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal</footprint>
@@ -211,6 +220,15 @@
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5256a2e5-5d23-4520-bca8-57cb50ff01c2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7e817e0-ba6d-4ae9-bfda-5f304867e3e3</tstamps>
     </comp>
     <comp ref="X1">
       <value>TPS63060</value>
@@ -399,16 +417,7 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+3V3">
-      <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="J1" pin="2" pintype="input"/>
-      <node ref="J2" pin="2" pintype="input"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="X1" pin="9" pinfunction="VOUT" pintype="power_out"/>
-    </net>
-    <net code="2" name="GND">
+    <net code="1" name="GND">
       <node ref="BT1" pin="1-" pinfunction="-" pintype="passive"/>
       <node ref="BT1" pin="2-" pinfunction="-" pintype="passive"/>
       <node ref="BT2" pin="1-" pinfunction="-" pintype="passive"/>
@@ -432,27 +441,27 @@
       <node ref="X1" pin="11" pinfunction="PGND" pintype="power_in"/>
       <node ref="X1" pin="7" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="3" name="Net-(BT1-Pad1+)">
+    <net code="2" name="Net-(BT1-Pad1+)">
       <node ref="BT1" pin="1+" pinfunction="+" pintype="passive"/>
       <node ref="F1" pin="2" pintype="passive"/>
     </net>
-    <net code="4" name="Net-(BT1-Pad2+)">
+    <net code="3" name="Net-(BT1-Pad2+)">
       <node ref="BT1" pin="2+" pinfunction="+" pintype="passive"/>
       <node ref="F2" pin="2" pintype="passive"/>
     </net>
-    <net code="5" name="Net-(BT2-Pad1+)">
+    <net code="4" name="Net-(BT2-Pad1+)">
       <node ref="BT2" pin="1+" pinfunction="+" pintype="passive"/>
       <node ref="F3" pin="2" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(BT2-Pad2+)">
+    <net code="5" name="Net-(BT2-Pad2+)">
       <node ref="BT2" pin="2+" pinfunction="+" pintype="passive"/>
       <node ref="F4" pin="2" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(BT2-Pad3+)">
+    <net code="6" name="Net-(BT2-Pad3+)">
       <node ref="BT2" pin="3+" pinfunction="+" pintype="passive"/>
       <node ref="F5" pin="2" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(C1-Pad2)">
+    <net code="7" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="F1" pin="1" pintype="passive"/>
@@ -463,15 +472,23 @@
       <node ref="X1" pin="2" pinfunction="VIN" pintype="power_in"/>
       <node ref="X1" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="9" name="Net-(C3-Pad2)">
+    <net code="8" name="Net-(C3-Pad2)">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="X1" pin="6" pinfunction="VAUX" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(C4-Pad1)">
+    <net code="9" name="Net-(C4-Pad1)">
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="X1" pin="8" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="F6" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="X1" pin="9" pinfunction="VOUT" pintype="power_out"/>
     </net>
     <net code="11" name="Net-(JP1-Pad2)">
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
@@ -485,7 +502,16 @@
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="X1" pin="10" pinfunction="L2" pintype="input"/>
     </net>
-    <net code="14" name="unconnected-(X1-Pad5)">
+    <net code="14" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="VDD">
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="input"/>
+      <node ref="J2" pin="2" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(X1-Pad5)">
       <node ref="X1" pin="5" pinfunction="PG" pintype="output+no_connect"/>
     </net>
   </nets>

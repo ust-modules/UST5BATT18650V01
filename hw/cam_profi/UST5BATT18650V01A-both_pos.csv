@@ -11,8 +11,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "F3","100mA","Fuse_0805_2012Metric",16.2560,5.0800,-90.0000,bottom
 "F4","100mA","Fuse_0805_2012Metric",35.0520,5.0800,-90.0000,bottom
 "F5","100mA","Fuse_0805_2012Metric",54.3560,5.0800,-90.0000,bottom
+"F6","1,1A","1812",80.6450,37.3380,90.0000,bottom
 "J1","SM03B-GHS-TB","JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",96.7740,58.8010,-90.0000,bottom
 "J2","SM03B-GHS-TB","JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",96.7740,50.2400,90.0000,bottom
-"R1","560k","R_0805_2012Metric",76.3035,33.0200,0.0000,bottom
+"R1","560k","R_0805_2012Metric",76.3270,35.0520,0.0000,bottom
 "R2","100k","R_0805_2012Metric",76.3035,30.4800,0.0000,bottom
+"R3","20k","R_0805_2012Metric",76.3270,32.7660,180.0000,bottom
 "X1","TPS63060","Texas_S-PWSON-N10_ThermalVias",78.9780,22.6550,90.0000,bottom
