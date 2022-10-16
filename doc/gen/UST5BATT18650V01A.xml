@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/UST5BATT18650V01A.kicad_sch</source>
-    <date>Sun Oct 16 07:14:49 2022</date>
+    <date>Sun Oct 16 07:24:24 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12,7 +12,7 @@
         <date>2022-04-02</date>
         <source>UST5BATT18650V01A.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Silicon photomultiplier interface module"/>
+        <comment number="2" value="5x BATT 18650 output 3V3"/>
         <comment number="3" value="nickname &lt;email@example.com&gt;"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
