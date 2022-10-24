@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/UST5BATT18650V01A.kicad_sch</source>
-    <date>Tue Oct 18 10:17:00 2022</date>
+    <date>Mon Oct 24 12:26:30 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,11 @@
     <comp ref="BT1">
       <value>NCR18650BL</value>
       <footprint>Mlab_Batery:BAT_BK-18650-PC4</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87e9</field>
+      </fields>
       <libsource lib="MLAB_BATERY" part="2xBATT" description="Single-cell battery"/>
+      <property name="UST_ID" value="5c70984412875079b91f87e9"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,7 +40,11 @@
     <comp ref="BT2">
       <value>NCR18650BL</value>
       <footprint>Mlab_Batery:BAT_BK-18650-PC6</footprint>
+      <fields>
+        <field name="UST_ID">63567f66c8e7b5bbef872ce1</field>
+      </fields>
       <libsource lib="MLAB_BATERY" part="3xBATT" description="Single-cell battery"/>
+      <property name="UST_ID" value="63567f66c8e7b5bbef872ce1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -45,7 +53,11 @@
     <comp ref="C1">
       <value>47uF/6V3</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,7 +66,11 @@
     <comp ref="C2">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,7 +79,11 @@
     <comp ref="C3">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,7 +92,11 @@
     <comp ref="C4">
       <value>10p</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b30</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b30"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,7 +105,11 @@
     <comp ref="C5">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -90,7 +118,11 @@
     <comp ref="C6">
       <value>47uF/6V3</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -99,7 +131,11 @@
     <comp ref="C7">
       <value>47uF/6V3</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">60d580ff1287500165f8595a</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="60d580ff1287500165f8595a"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -108,7 +144,11 @@
     <comp ref="F1">
       <value>100mA</value>
       <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cc331a7128750448e54e8fa</field>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="UST_ID" value="5cc331a7128750448e54e8fa"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -117,7 +157,11 @@
     <comp ref="F2">
       <value>100mA</value>
       <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cc331a7128750448e54e8fa</field>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="UST_ID" value="5cc331a7128750448e54e8fa"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -126,7 +170,11 @@
     <comp ref="F3">
       <value>100mA</value>
       <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cc331a7128750448e54e8fa</field>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="UST_ID" value="5cc331a7128750448e54e8fa"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -135,7 +183,11 @@
     <comp ref="F4">
       <value>100mA</value>
       <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cc331a7128750448e54e8fa</field>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="UST_ID" value="5cc331a7128750448e54e8fa"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -144,7 +196,11 @@
     <comp ref="F5">
       <value>100mA</value>
       <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5cc331a7128750448e54e8fa</field>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="UST_ID" value="5cc331a7128750448e54e8fa"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -153,7 +209,11 @@
     <comp ref="F6">
       <value>1,1A</value>
       <footprint>Mlab_F:1812</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88d3</field>
+      </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="UST_ID" value="5c70984512875079b91f88d3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -197,7 +257,11 @@
     <comp ref="L1">
       <value>DE1207-1</value>
       <footprint>Mlab_L:DE1207</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8823</field>
+      </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="UST_ID" value="5c70984412875079b91f8823"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -206,7 +270,11 @@
     <comp ref="R1">
       <value>560k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8aa6</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aa6"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -215,7 +283,11 @@
     <comp ref="R2">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8a96</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8a96"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -224,7 +296,11 @@
     <comp ref="R3">
       <value>20k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f89a3</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984612875079b91f89a3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -234,7 +310,11 @@
       <value>TPS63060</value>
       <footprint>Package_SON:Texas_S-PWSON-N10_ThermalVias</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps63060.pdf</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f89c2</field>
+      </fields>
       <libsource lib="Regulator_Switching" part="TPS63060" description="Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10"/>
+      <property name="UST_ID" value="5c70984612875079b91f89c2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
