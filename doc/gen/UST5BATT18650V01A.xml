@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/UST5BATT18650V01A.kicad_sch</source>
-    <date>Mon Oct 24 12:26:30 2022</date>
+    <date>Thu Oct 27 05:51:53 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="BT1">
-      <value>NCR18650BL</value>
+      <value>INR18650-MJ1</value>
       <footprint>Mlab_Batery:BAT_BK-18650-PC4</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f87e9</field>
@@ -38,7 +38,7 @@
       <tstamps>ab142bbc-6e22-43b0-972f-32e49a8a71ec 6b611581-019d-47f6-ac1c-d1286a9fb4e7</tstamps>
     </comp>
     <comp ref="BT2">
-      <value>NCR18650BL</value>
+      <value>INR18650-MJ1</value>
       <footprint>Mlab_Batery:BAT_BK-18650-PC6</footprint>
       <fields>
         <field name="UST_ID">63567f66c8e7b5bbef872ce1</field>
@@ -48,7 +48,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>efb170d4-b586-40f3-bb0e-8e0f7aa66a07 645faee6-4af6-42b2-b745-3c669a421ced 1c741060-97d2-4298-aae9-eee359b3bae4</tstamps>
+      <tstamps>645faee6-4af6-42b2-b745-3c669a421ced efb170d4-b586-40f3-bb0e-8e0f7aa66a07 1c741060-97d2-4298-aae9-eee359b3bae4</tstamps>
     </comp>
     <comp ref="C1">
       <value>47uF/6V3</value>
