@@ -399,8 +399,8 @@
       "idf": "",
       "netlist": "AIRDOSC01A_PCB01A.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "UST5BATT18650V01A.step",
+      "vrml": "UST5BATT18650V01A.wrl"
     },
     "page_layout_descr_file": "../../doc/assets/templates/KiCAD/page_layout.kicad_wks"
   },
