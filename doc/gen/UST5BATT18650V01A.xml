@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/UST5BATT18650V01A.kicad_sch</source>
-    <date>Wed Jan 18 10:32:40 2023</date>
+    <date>Fri Feb 17 22:07:47 2023</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -48,7 +48,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UST5BATT18650V01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>645faee6-4af6-42b2-b745-3c669a421ced efb170d4-b586-40f3-bb0e-8e0f7aa66a07 1c741060-97d2-4298-aae9-eee359b3bae4</tstamps>
+      <tstamps>efb170d4-b586-40f3-bb0e-8e0f7aa66a07 645faee6-4af6-42b2-b745-3c669a421ced 1c741060-97d2-4298-aae9-eee359b3bae4</tstamps>
     </comp>
     <comp ref="C1">
       <value>47uF/6V3</value>
