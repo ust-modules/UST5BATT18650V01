@@ -2977,13 +2977,13 @@
     (uuid fc598991-33f1-45b4-a92a-faa2fa26c46c)
   )
 
-  (text "VDD is 3.2 to 3.4V" (at 205.74 73.66 0)
+  (text "VDD is 3.2 to 3.6V" (at 205.74 73.66 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 7a90b126-f9f8-4924-a1d5-a7c60735cdea)
   )
-  (text "The absolute maximum working load is 100mA\n(The sum of both output connectors)"
-    (at 177.8 46.99 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
+  (text "The absolute maximum working load is 100 mA in case of atmospheric environment \nIn the case of vacuum environment the maximum current load drops to 10 mA\n(The sum of both output connectors)"
+    (at 95.25 46.99 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 7b0f90d9-3d24-44be-9148-fe0ddd325b42)
   )
 
