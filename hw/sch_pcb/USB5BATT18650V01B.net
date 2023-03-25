@@ -13,7 +13,7 @@
         (company "Mlab www.mlab.cz") 
         (rev REV) 
         (date %F) 
-        (source UST5BATT18650V01A.sch) 
+        (source USB5BATT18650V01B.sch) 
         (comment 
           (number 1) 
           (value VERSION)) 
