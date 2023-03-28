@@ -1,0 +1,19 @@
+description: 5x 18650 lion cell power supply for USTSIPIN02A
+github_branch: UST5BATT18650V01B
+github_repo: UST5BATT18650V01
+github_url: https://github.com/ust-modules/UST5BATT18650V01
+homepage: false
+images:
+- doc/gen/img/UST5BATT18650V01-bottom.png
+- doc/gen/img/UST5BATT18650V01-top.png
+- doc/img/UST5BATT18650V01A_bot.png
+- doc/img/UST5BATT18650V01A_top.png
+- doc/gen/UST5BATT18650V01-schematic.svg
+- doc/gen/img/UST5BATT18650V01-top.svg
+- hw/cam_profi/docs/UST5BATT18650V01B-assembly_page_01.svg
+- hw/cam_profi/docs/UST5BATT18650V01B-assembly_page_02.svg
+mark: 50
+mod_ibom: hw/cam_profi/ibom/UST5BATT18650V01-ibom.html
+mod_scheme: doc/gen/UST5BATT18650V01-schematic.pdf
+tags: []
+title: UST5BATT18650V01

@@ -1,0 +1,8 @@
+bom: hw/sch_pcb/UST5BATT18650V01.kicad_pcb
+color: white
+eda:
+  pcb: hw/sch_pcb/UST5BATT18650V01.kicad_pcb
+  type: kicad
+gerbers: hw/cam_profi/
+site: https://github.com/ust-modules/UST5BATT18650V01
+summary: 5x 18650 lion cell power supply for USTSIPIN02A
